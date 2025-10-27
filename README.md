@@ -11,6 +11,8 @@ This repository is for our CS-4800 Software Engineering project (AI Team). The A
 
 ## Testing the Application
 
+![App screenshot](static/app-screenshot.png)
+
 - Clone the repo: `https://github.com/tinaarezoomanian/CS-4800-Software-Engineering-Project---AI.git`.
 - Create and activate a virtual environment, then run `pip install -r requirements.txt`.
 - From the project root, start the server with `uvicorn application.app:app --reload`
