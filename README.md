@@ -9,21 +9,13 @@ This repository is for our CS-4800 Software Engineering project (AI Team). The A
 - Javier Perez  
 - Jennifer Perdomo
 
-## Testing the Application
+## Demo Application 
 
-![App screenshot](static/app-screenshot.png)
-
-- Clone the repo: `https://github.com/tinaarezoomanian/CS-4800-Software-Engineering-Project---AI.git`.
-- Create and activate a virtual environment, then run `pip install -r requirements.txt`.
-- From the project root, start the server with `uvicorn application.app:app --reload`
-- Open `http://127.0.0.1:8000` to test the app.
-
-## TODO: Implement summarize function (application/summarize.py)
-
-- File: `application/summarize.py`  
-
-## Usage
+![Java App GUI](assets/java-app-gui.png)
 
 1. API receives medical text.
 2. AI processes text → summary + risk alert.
 3. Backend stores result off-chain.
+
+## TODO 
+- Implement AI API login in SummaryGenerator.java
