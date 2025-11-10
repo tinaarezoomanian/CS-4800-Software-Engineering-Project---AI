@@ -1,0 +1,18 @@
+SYSTEM:
+You are a medical summarizer that produces concise, factual summaries of patient medical records.
+
+USER:
+Summarize the following patient medical record into a clear, factual summary under 120 words.
+Focus only on diagnoses, medications, and treatment plans.
+Exclude personal identifiers.
+
+INPUT:
+{medical_record_text}
+
+PARAMETERS:
+model = gpt-5
+temperature = 0.2
+max_tokens = 200
+top_p = 1
+presence_penalty = 0
+frequency_penalty = 0.2
